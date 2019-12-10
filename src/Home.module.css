@@ -1,0 +1,123 @@
+ .bannerContent {
+     padding: 0em 4em;
+     background-image:url("./images/Banner4.png");
+     background-size:cover;
+     height:40em;
+     background-repeat:no-repeat;
+
+ }
+
+ .bannerLeft h2 {
+     color: var(--mainBlue);
+     font-weight:bold;
+     text-align: left;
+     
+ }
+
+ .bannerLeft {
+    padding-top:4em;
+     width: 80%;
+     margin: auto;
+     text-align: left;
+
+ }
+
+ .bannerLeft p {
+     color: var(--lightBlack);
+     margin-top: 2em;
+     font-weight:bold;
+     
+ }
+
+ .bannerLeft p:nth-last-child(2) {
+     margin-top: 2em;
+     color: #c71e25;
+     font-weight:bold;
+ }
+
+ .Appstore {
+     padding-right: 2em;
+ }
+
+ .phone {
+     width: 100%;
+     margin-top: 2em auto;
+ }
+
+ .bannerRight {
+     margin-top:2em;
+     width: 100%;
+     text-align: center;
+
+ }
+
+ @media(max-width:992px) {
+     .bannerLeft {
+         width: 100%;
+         margin: auto;
+         padding: 2em 0em;
+         text-align: justify;
+         ;
+
+     }
+
+     .bannerLeft h3 {
+         font-size: 1.5em;
+         color: var(--mainBlue);
+         text-align:justify;
+     }
+
+     .bannerRight {
+         width: 100%;
+         margin: auto;
+         padding: 2em 0em;
+     }
+
+     .phone {
+         margin: auto;
+         width: 100%;
+         text-align: center;
+         
+
+     }
+    }
+
+     @media(max-width:425px) {
+         .bannerLeft {
+             padding-top: 2em;
+             width:80%;
+         }
+
+         .bannerContent {
+             padding: 0em;
+         }
+
+         .bannerLeft h3 {
+             font-size: 2em;
+             color: var(--mainBlue);
+            
+         }
+
+     }
+
+     @media (max-width:375px) {
+         .bannerLeft {
+            font-size: 1.2em;
+             width: 80%;
+             text-align:justify;
+         }
+
+         .bannerRight {
+             width: 100%;
+         }
+
+         .Appstore {
+             width: 7em;
+         }
+
+         .googleApp {
+             width: 5em;
+         }
+     }
+
+ 
