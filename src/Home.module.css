@@ -25,14 +25,14 @@
  .bannerLeft p {
      color: var(--lightBlack);
      margin-top: 2em;
-     font-weight:bold;
+    
      
  }
 
  .bannerLeft p:nth-last-child(2) {
      margin-top: 2em;
      color: #c71e25;
-     font-weight:bold;
+    
  }
 
  .Appstore {
@@ -51,11 +51,21 @@
 
  }
 
+ @media(min-width:993px) and (max-width:1024px){
+    .bannerContent {
+        background-size:cover;
+        height:30em;
+    }
+    .bannerLeft {
+        padding-top:2em;
+    }
+ }
+
  @media(max-width:992px) {
      .bannerLeft {
          width: 100%;
          margin: auto;
-         padding: 2em 0em;
+         padding: 1em 0em;
          text-align: justify;
          ;
 
@@ -80,7 +90,24 @@
          
 
      }
+     .bannerLeft p {
+        color: var(--lightBlack);
+        margin-top: 1em;
+       
+        
     }
+   
+    .bannerLeft p:nth-last-child(2) {
+        margin-top: 1em;
+        color: #c71e25;
+       
+    }
+    .bannerContent {
+        background-size:cover;
+        height:25em;
+    }
+    }
+    
 
      @media(max-width:425px) {
          .bannerLeft {

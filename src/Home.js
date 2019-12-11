@@ -48,6 +48,7 @@ const ButtonContainer= styled.div `
 text-align:left;
 margin-top:2.5em;
 @media (max-width:992px){
+  margin-top:1.2em;
   text-align:center;
 }
 `
